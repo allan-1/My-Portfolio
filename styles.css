@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 18px;
+}
+.bg-light1{
+    background: #d9e4dd;
+}
+.intro{
+    background: linear-gradient(-86deg, #d9e4dd, #fbf7f0);
+    margin-top: 4.2rem;
+}
+.intro-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-spacing: 3px;
+    padding: 10rem 0.3rem 3rem;
+}
+.skills{
+    padding-left: 4rem;
+    font-size: 2.5rem;
+}
+.intro-1 h1{
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+    font-size: 2.5rem;
+}
+.intro-1 h3, .intro-1 h4{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.nav-link{
+    font-size: 2rem;
+}
+button{
+    padding: 2rem;
+    border: none;
+    outline: none;
+    margin: 2rem 0;
+    cursor: pointer;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border-radius: 3px;
+    margin-top: 4rem;
+}
+button:hover{
+    background-color: #fbf7f0;
+    border-radius: 50%;
+}
+.color{
+    color: #6a097d;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.txt{
+    line-height: 2;
+    word-spacing: 3px;
+    font-size: 1.8rem;
+
+}
+.about{
+    margin: 10px;
+}
+.info{
+    padding: 1.3rem;
+    border-right: 1px solid black;
+}
+.tech{
+    padding: 1.3rem;
+}
+.img, .projectimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectimage{
+    padding: 0.5rem;
+    border: 3px solid chartreuse;
+}
+.skills i{
+    color: #03a383;
+    font-size: 2rem;
+}
+.projectlink{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projectlink button{
+    background-color: #03a383;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+}
+.projectlink button:hover{
+    opacity: 0.8;
+}
+.myprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project1{
+    background-color: hsl(225, 100%, 98%);
+    margin: 1.3rem 2.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 3px 8px 20px gray;
+}
+.projectheading{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+#project{
+    margin: 3rem 0 0;
+}
+.projects{
+    background: linear-gradient(-86deg, #d9e4dd, #fbf7f0);
+    padding: 2rem;
+}
+#about{
+    margin: 3rem 0 1.2rem;
+}
+.footer{
+    background-color: #000000;
+    padding: 2rem 2rem 0;
+    color: #ffff;
+    text-align: center;
+}
+.heading h1{
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 30%;
+    margin: auto;
+}
+.heading h4{
+    margin-top: 1rem;
+}
+.email{
+    color: #1fece9;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+}
+.socialmedia{
+    margin: 1rem 0;
+}
+.socialmedia i{
+    color: white;
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    transition: all 0.5s ease;
+}
+.socialmedia i:hover{
+    background-color: #1fece9;
+    border: none;
+    outline: none;
+}
+.copyright{
+    padding: 0.5rem;
+}
+
+@media(max-width : 700px){
+    .info{
+        border: none;
+    }
+    .tech .heading>h1{
+        font-size: 1.5rem;
+    }
+    .intro-1{
+        text-align: center;
+    }
+    .projectimage img{
+        width: 175px;
+    }
+}
