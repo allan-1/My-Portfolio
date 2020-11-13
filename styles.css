@@ -87,6 +87,9 @@ button:hover{
     align-items: center;
     justify-content: center;
 }
+.projectimage img{
+    object-fit: contain;
+}
 .projectimage{
     padding: 0.5rem;
     border: 3px solid chartreuse;
@@ -103,6 +106,7 @@ button:hover{
     background-color: #03a383;
     padding: 0.6rem 1rem;
     border-radius: 10px;
+    box-shadow: 3px 4px 10px gray;
 }
 .projectlink button:hover{
     opacity: 0.8;
@@ -177,12 +181,27 @@ button:hover{
         border: none;
     }
     .tech .heading>h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .intro-1{
         text-align: center;
     }
+    .projectimage{
+        border: none;
+        background-color: antiquewhite;
+        box-shadow: 3px 8px 20px gray;
+    }
+    .heading h1{
+        text-align: center;
+    }
+    .project1{
+        margin: 1rem;
+    }
     .projectimage img{
-        width: 175px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    td{
+        display: grid;
     }
 }
